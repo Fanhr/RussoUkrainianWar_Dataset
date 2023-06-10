@@ -1,4 +1,4 @@
-# Russo Ukrainian War Collection of Tweet IDs
+# 数据集：Russo Ukrainian War Collection of Tweet IDs
  
 The repository contains an ongoing collection of tweets IDs associated with the current war between Russia and Ukraine, which we commenced collecting on Februrary 24, 2022. We leveraged Twitter's search API to extract historical tweets, leading our dataset to contain tweets from February 22, 2022. We utilize Twitter’s streaming API to collect dataset based on selected popular hashtags corelated to particullar topic. The list of selected hashtags is presented in "hashtags.txt" file. To comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), we are only publicly releasing the Tweet IDs of the collected Tweets. The data is released for non-commercial research use. 
 
@@ -25,7 +25,7 @@ We are manage to perform multiple statistical measurments in daily basis over th
 
 All described analytics are published in [Parasecurity Group webpage](https://alexdrk14.github.io/RussiaUkraineWar/). 
 
-# Data Usage Agreement / How to Cite
+## Data Usage Agreement / How to Cite
 By using this dataset, you agree to abide by the stipulations in the license, remain in compliance with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
 
 Authors and Paper title with arxiv_id
@@ -38,6 +38,8 @@ BibTeX:
   year={2022}
 }
 ```
+
+# 代码：01~09
 
 
 # Statistics Summary (v1.0)
