@@ -50,6 +50,9 @@ Please read through the README and the closed issues to see if your question has
 
 If you have any  questions about this dataset/analysis, please contact Alexander Shevtsov at **shevtsov[at]ics[dot]forth[dot]gr**.
 
+## VIINA
+https://github.com/zhukovyuri/VIINA
+
 # 代码：01~09
 01_Tweet_Scraper:使用多线程和Snscrape将数据集中的Tweet_id抓取并存储到相应的文件中
 
