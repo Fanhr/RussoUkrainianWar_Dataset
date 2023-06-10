@@ -39,16 +39,22 @@ BibTeX:
 }
 ```
 
-# 代码：01~09
 
-
-# Statistics Summary (v1.0)
+## Statistics Summary (v1.0)
 Number of Tweets : **66,128,912**
 
 
-# Inquiries
+## Inquiries
 
 Please read through the README and the closed issues to see if your question has already been addressed first. 
 
 If you have any  questions about this dataset/analysis, please contact Alexander Shevtsov at **shevtsov[at]ics[dot]forth[dot]gr**.
 
+# 代码：01~09
+01_Tweet_Scraper:使用多线程和Snscrape将数据集中的Tweet_id抓取并存储到相应的文件中
+02_Data_Clean:将爬取到的数据初步清洗
+03_Cleand_Data_Rename:重命名文件，便于下一步读取
+04_Data_Description:使用Dask同时统计并汇总多个文件中的信息，完成描述性统计工作
+05_Data_Analysis_Moral&Hate:完成道德基础赋值和仇恨言论检测工作，并进行统计检验
+06~08_Panel_Data_Analysis:构建并对面板数据进行各项分析
+09_Vinna_and_Hate&Moral:时间序列数据的格兰杰因果检验及因果图发现
